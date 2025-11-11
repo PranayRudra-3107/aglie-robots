@@ -1,0 +1,14 @@
+<app-header
+  [isGerman]="isGerman()"
+  [searchTerm]="searchTerm()"
+  (toggleLang)="toggleLanguage()"
+  (emergencyStop)="emergencyStopAll()"
+  (searchChange)="updateSearch($event)">
+</app-header>
+
+<main class="grid">
+  <app-robot-card
+    *ngFor="let robot of filteredRobots(); trackBy: trackByRobotId"
+    [robot]="robot">
+  </app-robot-card>
+</main>

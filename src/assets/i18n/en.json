@@ -1,0 +1,12 @@
+{
+  "EMERGENCY_STOP": "EMERGENCY STOP",
+  "HEARTBEAT": "Last heartbeat",
+  "STATUS": {
+    "error": "Error",
+    "estopped": "E-STOP",
+    "idle": "Ready",
+    "running": "Running"
+  },
+  "TITLE": "AGILE ROBOTS Fleet Manager",
+  "SEARCH": "Search by name or status"
+}
