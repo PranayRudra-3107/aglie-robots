@@ -10,11 +10,11 @@ export const appConfig: ApplicationConfig = {
     provideRouter(routes),
     provideHttpClient(),
     provideTranslateService({
-      lang: 'en',                // Default to English
-      fallbackLang: 'en',        // Fallback if translation missing
+      lang: 'en',
+      fallbackLang: 'en',
       loader: provideTranslateHttpLoader({
-        prefix: '/assets/i18n/',  // Your folder
-        suffix: '.json'            // Your file extension
+        prefix: '/assets/i18n/',
+        suffix: '.json'          
       })
     })
   ]
